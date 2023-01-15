@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Metamask Demo</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="mb-3 row">
+                <div class="mt-4 p-5 bg-primary text-white rounded ">
+                    <h1>MetaMask Verification</h1>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputNonce" class="col-sm-2 col-form-label">Nonce</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputNonce" readonly>
+                </div>
+                <button class="col-sm-2 btn btn-primary" id="buttonRefresh">Refresh</button>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputAddress" readonly>
+                </div>
+                <button class="col-sm-2 btn btn-primary" id="buttonBind">Bind</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/axios.min.js"></script>
+<script src="/js/web3.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/demo.js"></script>
+</body>
+</html>
